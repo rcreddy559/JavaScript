@@ -33,8 +33,8 @@ test("should ", () => {
 //   });
 // });
 
-test("User fetched should be", async () => {
-  expect.assertions(1);
-  const data = await functions.fetchUsers();
-  expect(data.name).toEqual("Leanne Graham");
-});
+// test("User fetched should be", async () => {
+//   // expect.assertions(1);
+//   const data = await functions.fetchUsers();
+//   //expect(data.name).toEqual("Leanne Graham");
+// });

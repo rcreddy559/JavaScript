@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ravichandrap/JavaScript#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "jest": "^24.5.0"
   }
 }

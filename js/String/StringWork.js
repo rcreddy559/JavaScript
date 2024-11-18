@@ -8,3 +8,14 @@ console.log(lang,country)
 
 const [l,c] = location.split('-')
 console.log(l,c);
+console.log("--------------------------");
+
+/*
+ --firs line is undifine
+ -- second line try to  convert undifine to string, it  becomes  NaN
+*/
+x++;
+console.log(x);
+var  x= 21;
+
+

@@ -14,6 +14,8 @@ function curring(func) {
 
 const sum = (a, b, c) => a + b + c;
 const total = curring(sum);
+console.log(total);
+
 console.log(total(1)(2)(3));
 
 ///https://www.youtube.com/watch?v=k5TC9i5HonI&list=PLKhlp2qtUcSaCVJEt4ogEFs6I41pNnMU5&index=6

@@ -7,8 +7,8 @@ function printName(age, marks) {
   );
 }
 
-const funck = printName.bind(obj);
+const fun = printName.bind(obj);
 
-funck(24, 50);
+fun(24, 50);
 
-funck(24, 100);
+fun(24, 100);

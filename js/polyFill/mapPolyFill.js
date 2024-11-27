@@ -12,6 +12,9 @@ console.log(`map result: ${result}`);
 
 console.log("\n----------Polyfill Map-----------------");
 Array.prototype.myMap = function (cb) {
+  if (typeof cb !== "function") {
+    throw new Error("First argument must be a function");
+  }
   let temp = [];
   for (let i = 0; i < this.length; i++) {
     temp.push(cb(this[i], i, this));
